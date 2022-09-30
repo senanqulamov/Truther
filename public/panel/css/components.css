@@ -1,0 +1,89 @@
+/* Display Items */
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.d-block {
+    display: block;
+}
+.d-none {
+    display: none;
+}
+
+/* Position Items */
+.p-ab {
+    position: absolute;
+}
+.p-rel {
+    position: relative;
+}
+.p-fixed {
+    position: fixed;
+}
+.p-sticky {
+    position: sticky;
+}
+
+/* Flex Items */
+.dir-row {
+    flex-direction: row;
+}
+.dir-col {
+    flex-direction: column;
+}
+
+
+/*! Empty spaces  !*/
+.empty-div {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.empty-div-10 {
+    height: 10px;
+}
+.empty-div-20 {
+    height: 20px;
+}
+.empty-div-30 {
+    height: 30px;
+}
+.empty-div-40 {
+    height: 40px;
+}
+.empty-div-50 {
+    height: 50px;
+}
+.empty-div-60 {
+    height: 60px;
+}
+.empty-div-70 {
+    height: 70px;
+}
+.empty-div-80 {
+    height: 80px;
+}
+.empty-div-90 {
+    height: 90px;
+}
+.empty-div-100 {
+    height: 100px;
+}
+
+/** Helper div elements **/
+.v-line-div {
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 100%;
+    border-left: 1px solid var(--border);
+}
+.h-line-div {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid var(--border);
+}

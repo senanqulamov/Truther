@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+    --white: #ffffff;
+    --black: #13111d;
+    --black-50: #13111d7b;
+    --light-blue: #98d0fd;
+    --dark-blue: #2e315f;
+    --red: #872222;
+    --green: #228724;
+    --text: #98d0fd;
+    --background: #14152d;
+    /* --border: #98d0fd59; */
+    --border: #98d0fd33;
+    --hover: #2e315f;
+    --line: #2e315f;
+    --radius: 10px;
+    --font: "Montserrat", sans-serif;
+    --transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    --blurry: radial-gradient(
+        30vw circle at 50% 50%,
+        rgba(255, 255, 255, 0.1),
+        transparent
+    );
+    --blurry-static:rgba(255, 255, 255, 0.1);
+    --f-s-16: 16px;
+    --bg-green:#03f70763;
+    --bg-yellow:#f3f70663;
+}
+* {
+    box-sizing: border-box;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: var(--background);
+    font-family: var(--font);
+}
+body {
+    /* height: 100%; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* overflow-y: hidden; */
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--border);
+}
+
+p {
+    margin: 0;
+}
+.fa-solid {
+    -webkit-text-stroke: 0.5px var(--text);
+    color: transparent;
+}
